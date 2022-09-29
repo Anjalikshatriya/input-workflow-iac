@@ -1,6 +1,7 @@
+import sys
 
-a=15
-b=16
+a=int(sys.argv[1])
+b=int(sys.argv[2])
 
 sum=a+b
 print(sum)
